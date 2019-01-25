@@ -1,0 +1,27 @@
+{
+  "name": "next-pwa",
+  "version": "1.0.0",
+  "description": "next.js, workbox - SSR SPA with offline support",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node server.js",
+    "startp": "cross-env PORT=9000 npm start",
+    "build": "next build",
+    "dev": "next"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^6.1.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "express": "^4.15.2",
+    "isomorphic-unfetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "lru-cache": "^5.1.1",
+    "next-workbox-webpack-plugin": "^1.1.0",
+    "webpack-pwa-manifest": "^4.0.0"
+  }
+}
